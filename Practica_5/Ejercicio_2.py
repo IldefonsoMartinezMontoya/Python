@@ -1,4 +1,7 @@
-asignaturas = ["matemáticas", "física", "química", "historia", "lengua"]
-asignaturas.insert(3, "programacion")
-for x in asignaturas:
-    print(x, end=" ")
+numerin = int(input("Introduce un numero: "))
+def Facto(n):
+    resultadoFacto = 1
+    for i in range(n, 0, -1):
+        resultadoFacto = resultadoFacto * i
+    return resultadoFacto
+print(Facto(numerin))
