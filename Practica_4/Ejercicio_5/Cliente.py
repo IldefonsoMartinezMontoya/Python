@@ -1,8 +1,5 @@
-from xxlimited_35 import Str
-
-
 class Cliente:
-    def __init__(self, nombre: str, direccion:str, telefono: str, correo: str, preferente: bool):
+    def __init__(self, nombre: str, direccion: str, telefono: str, correo: str, preferente: bool):
         self.nombre = nombre
         self.direccion = direccion
         self.telefono = telefono

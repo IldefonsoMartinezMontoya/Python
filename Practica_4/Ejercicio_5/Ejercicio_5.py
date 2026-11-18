@@ -1,4 +1,4 @@
-from Practica_4.Ejercicio_5.Ejercicio_5 import Cliente
+from Cliente import Cliente
 clientes = {}
 
 while True:
