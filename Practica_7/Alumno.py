@@ -8,7 +8,7 @@ class Alumno:
     @nombre.setter
     def nombre(self, nombre):
         if not nombre:
-            raise Exception("El nombre no puede estar vacio")
+            raise Exception("El nombre no puede estar vacío")
         else:
             self._nombre = nombre
     @property
@@ -17,7 +17,7 @@ class Alumno:
     @nota.setter
     def nota(self, nota):
         if not nota:
-            raise Exception("El direccion no puede estar vacio")
+            raise Exception("El dirección no puede estar vacío")
         else:
             self.nota = nota
     def __str__(self):
